@@ -12,4 +12,4 @@ ActionMailer::Base.smtp_settings = {
   :domain         => 'mighty-forest-36165.herokuapp.com',
   :authentication => :plain,
 }
-ActionMailer::Base.delivery_methos = :smtp
+ActionMailer::Base.delivery_method = :smtp
